@@ -1,0 +1,57 @@
+.home {
+    box-sizing: border-box;
+    background-color: rgb(255, 253, 245);
+    color: #514949 !important;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.home-art-one {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.art1-middle .para {
+    color: #E7332B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+
+.art1-middle .p {
+    color: black;
+    font-size: 50px;
+    font-weight: 650;
+    text-align: center;
+    /* background-color: red; */
+    line-height: 3rem;
+    margin-top: 0px;
+
+}
+
+.art1-middle .home-paragraph {
+    color: black;
+    font-size: 19px;
+    line-height: 1.9rem;
+    width: 70%;
+    text-align: center;
+    opacity: 0.7;
+    padding-left: 4vw;
+
+}
+
+.art1-mini-flex {
+    padding-top: 10px;
+}
+
+.art1-flex-right {
+    /* display: flex;
+   justify-content: center; */
+    padding-left: 9vw;
+    /* background-color: red; */
+
+}

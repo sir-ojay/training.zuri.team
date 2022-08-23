@@ -1,0 +1,31 @@
+.home-art-two{
+  display: flex;
+justify-content: space-between;
+  /* background-color: red; */
+  align-items: center;
+  
+}
+hr{
+  border: 1px solid rgb(77, 77, 75);
+  opacity: 0.2;
+  margin-left:5vw ;
+  margin-right:4vw ;
+}
+.about-p{
+      color: black;
+        font-size: 24px;
+        line-height: 1.9rem;
+        font-weight: 650;
+        width: 80%;
+        text-align: left;
+        opacity: 0.9;
+        padding-left: 4vw;
+}
+.about-p2{
+      color: black;
+        font-size: 24px;
+        width:75%;
+        text-align: right;
+        opacity: 0.8;
+        padding-left: 4vw;
+}

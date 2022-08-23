@@ -1,0 +1,85 @@
+.structure-flex {
+    background-color: rgb(231,51,43);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4vw;
+    height: 150vh;
+    color: white;
+}
+
+.structure-flex-left {
+    width: 40%;
+    padding-top: 20px;
+}
+
+.structure-left-img {
+    width: 90%;
+    display: flex;
+    justify-content: right;
+}
+
+.structure-left-img img {
+    width: 23%;
+}
+
+.structure-left-p1 {
+
+    font-size: 22px;
+    line-height: 1.9rem;
+    text-align: left;
+    opacity: 0.9;
+
+}
+
+.structure-left-p2 {
+
+    font-size: 40px;
+    line-height: 3rem;
+    font-weight: 650;
+    width: 80%;
+    text-align: left;
+
+}
+
+.structure-left-p3 {
+
+    font-size: 22px;
+    line-height: 1.9rem;
+    text-align: left;
+    opacity: 0.9;
+    width: 75%;
+
+}
+
+.structure-mini-flex {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    padding-top: 4vh;
+}
+
+.struc-mini {
+    width: 20vw;
+    border: 2px solid white;
+    border-radius: 70px;
+}
+.struc-mini-font{
+    font-weight: 500;
+    font-size: 20px;
+        line-height: 1.9rem;
+        text-align: left;
+        opacity: 0.9;
+}
+.structure-dot-img{
+    display: flex;
+    justify-content: left;
+}
+
+.structure-flex-right {
+    width: 60%;
+}
+
+.structure-flex-right img {
+    width: 100%;
+}

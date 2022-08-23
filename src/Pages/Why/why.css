@@ -1,0 +1,47 @@
+.why-img-top{
+    display: flex;
+    justify-content: center;
+
+}
+.why-img-top img{
+    width: 15%;
+}
+.why-flex{
+    display: flex;
+}
+.why-flex-left{
+    width: 70%;
+}
+.why-flex-right{
+    width: 30%;
+}
+.why-para{
+    color:  #E7332B;
+    text-align: left;
+        font-size: 18px;
+      
+}
+.why-para2{
+    color: black;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 3rem;
+        opacity: 0.8;
+        width: 70%;
+}
+.why-flex-card{
+    display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-content: space-between;
+ justify-content: space-between;
+ gap: 1.5em;
+}
+.why-card1, .why-card2, .why-card3, .why-card4,.why-card5,.why-card6{
+    
+    border-radius: 10px;
+   height: 70vh;
+   background-color: white;
+   border: 1px solid black;
+}

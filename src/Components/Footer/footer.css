@@ -1,0 +1,38 @@
+.footer {
+    background-color: red;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.footer-right,
+.footer-left {
+    padding-top: 20px;
+}
+/* .footer-right{
+    margin-right: 20px;
+} */
+.footer-links {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links li {
+    /* padding-right: 20px; */
+}
+
+.footer-links a {
+    text-decoration: none;
+
+}
+.footer-policy{
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
