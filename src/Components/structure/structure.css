@@ -1,0 +1,17 @@
+.structure-flex-top, .structure-path-flex, .structure-mini-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.structure-article{
+    width: 40%;
+}
+.structure-img-star{
+    width: 60%;
+}
+.structure-flex-left, .structure-flex-right{
+    width: 50%;
+}
+
+.structure-mini-left, .structure-mini-right{
+    width: 20%;
+}

@@ -1,44 +1,55 @@
 import React from 'react'
+import './structure.css'
 
 const Structure = () => {
   return (
-    <div className='structure-program'>
+    <div className="structure-program">
       <div className="structure-flex">
-        <div>
+        <div className="structure-wire-img">
           <img src="https://training.zuri.team/section7wire.svg" alt="" />
         </div>
 
-        <div>
-          <p>Structure</p>
-          <h3>Program Structure</h3>
-          <p>
-            There are 2 broad paths in this program based on your availability.
-          </p>
-        </div>
+        <div className='structure-flex-top'>
+          <div className="structure-article">
+            <p className="structure-para1">Structure</p>
+            <p className="structure-para2">Program Structure</p>
+            <p className="structure-para3">
+              There are 2 broad paths in this program based on your
+              availability.
+            </p>
+          </div>
 
-        <div>
-          <img src="https://training.zuri.team/Star1.svg" alt="" />
+          <div className="structure-img-star">
+            <img src="https://training.zuri.team/Star1.svg" alt="" />
+          </div>
         </div>
 
         <div className="structure-path-flex">
           <div className="structure-flex-left">
-            <h2>Full-time</h2>
-            <p>Requires at least 25 hours weekly on program content.</p>
-            <h3>Available Tracks:</h3>
-            <ul>
+            <p className="structure-left-para1">Full-time</p>
+            <p className="structure-left-para2">
+              Requires at least 25 hours weekly on program content.
+            </p>
+            <p className="structure-left-para3">Available Tracks:</p>
+
+            <ul className="structure-left-list1">
               <li>
                 Full Stack: Backend (Python, JavaScript), Frontend (HTML, CSS,
                 JavaScript) & DevOps
               </li>
               <li>Design: Figma, Adobe XD</li>
             </ul>
-            <h3>Phases:</h3>
-            <ul>
+
+            <p>Phases:</p>
+
+            <ul className="structure-left-list1">
               <li>Training Phase</li>
               <li>Project Phase</li>
             </ul>
-            <h3>Post Program:</h3>
-            <ul>
+
+            <p>Post Program:</p>
+
+            <ul className="structure-left-list1">
               <li>Certification of Attendance</li>
               <li>Zuri Internship </li>
               <li>Laptop Reward (upgrade or new one)</li>
@@ -46,8 +57,9 @@ const Structure = () => {
               <li>Zuri Talent Pool</li>
               <li>More Training:</li>
             </ul>
-            <div>
-              <div>
+
+            <div className="structure-mini-flex">
+              <div className="structure-mini-left">
                 {" "}
                 <p>Interview Prep</p>
                 <p>Algorithms & Data Structure</p>
@@ -55,17 +67,22 @@ const Structure = () => {
                 <p>LinkedIn Optimization</p>
                 <p>CV Review</p>
               </div>
-              <div>
+
+              <div className="structure-mini-right">
                 <img src="https://training.zuri.team/hour.png" alt="" />
               </div>
+              
             </div>
           </div>
 
           <div className="structure-flex-right">
-            <h2>Part-time</h2>
-            <p>Requires at least 11 hours weekly on program content.</p>
-            <h3>Available Tracks:</h3>
-            <ul>
+            <p className="structure-right-para1">Part-time</p>
+            <p className="structure-right-para2">
+              Requires at least 11 hours weekly on program content.
+            </p>
+            <p className="structure-right-para3">Available Tracks:</p>
+
+            <ul className="structure-right-list1">
               <li>Frontend: HTML, CSS, JavaScript</li>
               <li>
                 Backend: Can only select one backend language Python, PHP,
@@ -73,20 +90,22 @@ const Structure = () => {
               </li>
               <li>Design: Figma</li>
             </ul>
-            <div>
-              <div>
+
+            <div className="structure-mini-flex">
+              <div className="structure-mini-left">
                 {" "}
-                <h3>Phases:</h3>
-                <ul>
+                <p>Phases:</p>
+                <ul className="structure-right-list2">
                   <li>Training Phase</li>
                 </ul>
-                <h3>Post Program:</h3>
-                <ul>
+                <p>Post Program:</p>
+                <ul className="structure-right-list3">
                   <li>Certification of Attendance</li>
                   <li>Zuri Internship </li>
                 </ul>
               </div>
-              <div>
+
+              <div className="structure-mini-right">
                 <img src="https://training.zuri.team/time.png" alt="" />
               </div>
             </div>
